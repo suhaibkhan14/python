@@ -1,4 +1,8 @@
-x = 2
-y = 5
-sum = x+y
-print("the answer is : " , sum)
+#print the sum
+from re import sub
+
+#print the sub
+first number = input("Enter first number : ")
+second number = input("Enter second number : ")
+sub = int(first number)-int(second number)
+print("the answer is : " , sub)
